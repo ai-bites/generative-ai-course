@@ -19,6 +19,7 @@ This course provides hands-on experience with:
 - **`simple_rag.ipynb`** - Basic RAG implementation using LangChain and ChromaDB
 - **`rag_with_dspy.ipynb`** - Advanced RAG with DSPy framework integration
 - **`agentic_rag.ipynb`** - Agentic RAG using LangGraph and NVIDIA AI Endpoints
+- **`agentic_rag_chromadb.ipynb`** - Agentic RAG with ChromaDB vector store
 
 ### 🧠 DSPy Framework
 - **`dspy_demo.ipynb`** - Introduction to DSPy for prompt optimization and language model programming
@@ -85,6 +86,7 @@ pip install crewai crewai_tools arxiv
 ├── simple_rag.ipynb                   # Basic RAG implementation
 ├── rag_with_dspy.ipynb                # Advanced RAG with DSPy
 ├── agentic_rag.ipynb                  # Agentic RAG systems
+├── agentic_rag_chromadb.ipynb         # Agentic RAG with ChromaDB
 ├── dspy_demo.ipynb                    # DSPy framework demo
 ├── Finetune_Gemma.ipynb               # Gemma fine-tuning guide
 ├── gpt-oss-ft.ipynb                   # GPT fine-tuning
@@ -92,6 +94,7 @@ pip install crewai crewai_tools arxiv
 ├── quantize_gemma_gguf.ipynb          # GGUF conversion & quantization
 ├── arxiv_research_crew.ipynb          # Multi-agent research system
 ├── Tour_of_Transformers_Library.ipynb # Transformers library tour
+├── data/                              # Datasets and data files
 ├── llama.cpp/                         # GGUF conversion tools
 ├── merged_model/                      # Merged model outputs
 ├── peft_model/                        # PEFT adapter models
